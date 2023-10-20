@@ -56,10 +56,10 @@ public class Register {
             int total_data = ps.executeUpdate();
 
             if (total_data > 0) {
-                System.out.println("Berhasil Register!\n");
+                System.out.println("\nBerhasil Register!\n");
                 Login.menu();
             } else {
-                System.out.println("Gagal Register!\n");
+                System.out.println("\nGagal Register!\n");
                 Menu_auth.menu();
             }
 
