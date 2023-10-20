@@ -43,7 +43,6 @@ public class Register {
             System.out.println("+--------------------------------+");
             System.out.println("|   HALAMAN REGISTRASI PENGGUNA  |");
             System.out.println("+--------------------------------+");
-            System.out.println(" ");
 
             loginScanner();
 
@@ -77,7 +76,7 @@ public class Register {
         System.out.print("Masukkan role (admin, petugas): ");
         role = input.nextLine().trim();
         if (!role.equalsIgnoreCase("admin") && !role.equalsIgnoreCase("petugas")) {
-            System.out.println("Maaf, role tidak ditemukan!");
+            System.out.println("\nMaaf, role tidak ditemukan!");
             loginScanner();
         } else {
             System.out.print("Masukkan nama: ");
