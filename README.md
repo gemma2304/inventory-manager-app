@@ -1,4 +1,3 @@
 # inventory-manager-app
-Aplikasi ini dirancang untuk mengelola stok barang, di mana pengguna dapat menggunakan aplikasi ini untuk melihat, menambahkan, menghapus, dan mengedit data terkait barang.
-
-Aplikasi dibangun menggunakan IntelliJ IDEA dan menyimpan data pada database MySQL.
+This application is designed to manage inventory stock by allowing users to view, add, edit, and delete product data. 
+Built using IntelliJ IDEA with MySQL database integration.
